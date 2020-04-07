@@ -14,6 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="L62-Z3-win"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="d31-rv-xN6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SagradaFamilia.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="X6D-5h-z8z">
@@ -102,6 +103,15 @@
                                     <rect key="frame" x="20" y="265" width="343" height="30"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69Z-4U-yOX">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="139" width="179" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -111,6 +121,7 @@
                                 <exclude reference="bja-18-Ylu"/>
                                 <exclude reference="5LH-QQ-dDe"/>
                                 <exclude reference="dgi-aj-F5R"/>
+                                <exclude reference="69Z-4U-yOX"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -120,6 +131,7 @@
                                 <include reference="bja-18-Ylu"/>
                                 <include reference="5LH-QQ-dDe"/>
                                 <include reference="dgi-aj-F5R"/>
+                                <include reference="69Z-4U-yOX"/>
                             </mask>
                         </variation>
                     </view>
@@ -128,6 +140,7 @@
                         <outlet property="enterNameTextField" destination="eOQ-XT-Wfj" id="AWS-pg-aOV"/>
                         <outlet property="mailButton" destination="bja-18-Ylu" id="2Sm-dJ-Bwk"/>
                         <outlet property="messageLabel" destination="5LH-QQ-dDe" id="EC9-VH-Q26"/>
+                        <outlet property="nameLabel" destination="69Z-4U-yOX" id="hkk-xB-LZI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
